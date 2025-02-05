@@ -1,4 +1,4 @@
-# Employee Management API
+﻿# Employee Management API
 
 This is a simple Employee Management API built using **ASP.NET Core** and **Entity Framework Core**.
 
@@ -23,4 +23,20 @@ git clone https://github.com/Saritha-yelgam88/EmployeeManagementAPI.git
 - **SQL Server**
 - **Swagger**
 - **GitHub**
+
+## 📂 Database Schema
+
+The SQL script for creating the database tables is available in **[database.sql](https://github.com/Saritha-yelgam88/EmployeeManagementAPI/blob/main/database.sql)**.
+
+To set up the database:
+1. Download the `database.sql` file.
+2. Open **SQL Server Management Studio (SSMS)**.
+3. Execute the script to create the tables.
+
+This script creates three tables:
+
+Employees – Stores employee details like name, address, and hourly pay.
+Supervisors – Stores supervisor details, including annual salary.
+Managers – Stores manager details with an annual salary and max expense allowance.
+
 
